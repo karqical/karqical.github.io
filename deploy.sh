@@ -21,7 +21,7 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io
-git push -f https://karqical@167240678%40dj@github.com/karqical/karqical.github.io.git master
+git push -f https://karqical:167240678%40dj@github.com/karqical/karqical.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
