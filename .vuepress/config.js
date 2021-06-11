@@ -2,7 +2,7 @@ module.exports = {
   "base":"/",
   "title": "GORS工作室",
   "description": "不断坚守善良，诚实，责任和学习",
-  "dest": "docs", //打包生成的默认路径
+  "dest": "publish", //打包生成的默认路径
   "head": [
     [
       "link",
