@@ -7,6 +7,7 @@ rm -rf docs
 set -e
 
 # npm install
+
 # 生成静态文件
 npm run build
 
