@@ -16,7 +16,7 @@ npm run build
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m 'init'
 # git remote add origin https://github.com/karqical/karqical.github.io.git
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
