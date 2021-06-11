@@ -13,7 +13,7 @@ tagline: 不断坚守善良，诚实，责任和学习.
 #   borderRadius: '1rem',
 # }
 bgImageStyle: {
-  height: '550px'
+  height: '350px'
 }
 isShowTitleInHome: false
 actionText: Guide
