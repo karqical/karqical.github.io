@@ -20,7 +20,7 @@ module.exports = {
     ],
   ],
 
-  theme: "reco",
+  theme: "reco", // https://vuepress-theme-reco.recoluan.com/
   themeConfig: {
     nav: [
       {
@@ -81,7 +81,17 @@ module.exports = {
     },
   },
   plugins: [
-    ["vuepress-plugin-code-copy", true],
+    [
+      "one-click-copy",
+      {
+        copySelector: [
+          'div[class*="language-"] pre',
+          'div[class*="aside-code"] aside',
+        ], // String or Array
+        copyMessage: "复制成功~", // default is 'Copy successfully and then paste it for use.'
+        duration: 300, // prompt message display time
+      },
+    ],
     [
       "sakura",
       {
