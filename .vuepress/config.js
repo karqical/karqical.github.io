@@ -18,6 +18,23 @@ module.exports = {
         content: "width=device-width,initial-scale=1,user-scalable=no",
       },
     ],
+    // 引入jquery
+    [
+      "script",
+      {
+        language: "javascript",
+        type: "text/javascript",
+        src: "https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js",
+      },
+    ],
+    [
+      "script",
+      {
+        language: "javascript",
+        type: "text/javascript",
+        src: "/js/MouseClickEffect.js",
+      },
+    ],
   ],
 
   theme: "reco", // https://vuepress-theme-reco.recoluan.com/
@@ -89,7 +106,7 @@ module.exports = {
           'div[class*="aside-code"] aside',
         ], // String or Array
         copyMessage: "复制成功~", // default is 'Copy successfully and then paste it for use.'
-        duration: 300, // prompt message display time
+        duration: 1300, // prompt message display time
       },
     ],
     [
