@@ -106,7 +106,7 @@ module.exports = {
           'div[class*="aside-code"] aside',
         ], // String or Array
         copyMessage: "复制成功~", // default is 'Copy successfully and then paste it for use.'
-        duration: 1300, // prompt message display time
+        duration: 1500, // prompt message display time
       },
     ],
     [
@@ -121,5 +121,6 @@ module.exports = {
         },
       },
     ],
+    ["vuepress-plugin-boxx"],
   ],
 };
