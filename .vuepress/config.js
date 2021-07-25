@@ -71,10 +71,13 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "Karl Du",
     "authorAvatar": "/avatar.png",
-    "record": "xxxx",
+    "record": "0.0.1.1",
     "startYear": "2021"
   },
   "markdown": {
-    "lineNumbers": true
+    "lineNumbers": true,
+    extendMarkdown: md => {
+      md.use(require("markdown-it-disable-url-encode"));
+    }
   },
 }
