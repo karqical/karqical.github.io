@@ -50,17 +50,17 @@ module.exports = {
         link: "/timeline/",
         icon: "reco-date",
       },
-      {
-        text: "联系",
-        icon: "reco-message",
-        items: [
-          {
-            text: "GitHub",
-            link: "https://github.com/karqical",
-            icon: "reco-github",
-          },
-        ],
-      },
+      // {
+      //   text: "联系",
+      //   icon: "reco-message",
+      //   items: [
+      //     {
+      //       text: "GitHub",
+      //       link: "https://github.com/karqical",
+      //       icon: "reco-github",
+      //     },
+      //   ],
+      // },
     ],
     sidebar: "auto",
     type: "blog",
